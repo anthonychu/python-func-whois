@@ -1,0 +1,2 @@
+ujson==1.35
+pythonwhois==2.4.3

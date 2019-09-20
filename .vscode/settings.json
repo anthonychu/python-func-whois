@@ -1,0 +1,9 @@
+{
+    "azureFunctions.deploySubpath": "python-func-whois.zip",
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~2",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "func: pack --build-native-deps",
+    "python.pythonPath": ".venv/bin/python3.6"
+}
